@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dimitri Fautsch</title>
+    
+    
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- stylesheet -->
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu:500' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+    
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+ <!-- Fixed navbar -->
+      <nav class="navbar navbar-default" role="navigation">
+        <div class="container-fluid" >
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+             <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          <a class="navbar-brand" class="active-page" href="file:///Users/dimitrifautsch/Documents/personal-website/index.html"  >Dimitri Fautsch</a>
+        </div>
+      <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">   
+            <li><a  href="file:///Users/dimitrifautsch/Documents/personal-website/about.html">
+              <span>About</span></a>
+          </li>
+            <li><a  href="file:///Users/dimitrifautsch/Documents/personal-website/contact.html"><span>Contact</span></a></li>
+            <li><a class="active-page" href="file:///Users/dimitrifautsch/Documents/personal-website/theremingtonchop.html"><span>Projects</span></a></li>
+          </ul>
+        </div><!--/.nav-collapse --> 
+      </div>
+    </nav>
+    <!-- page content -->
+<div class="container" >
+  <div class="row pages-header" >
+    <h1 style="padding-bottom: 40px;"> Projects </h1  >
+  </div>
+</div>
+<div class="container" >
+  <div class="row" >
+    <div class="col-md-12" >
+  <div><span class="toggle1" onclick="toggle_text('remingtonchopbody');"><h3>The Remington Chop</h3></span></div>
+      <img src="images/zoomed-out.png" id="remingtonimage" alt="TheRemingtonChop" width="50%" height="50%" class="img-responsive" style="float:left;">
+      
+      <p id="remingtonchopbody" style="display: block;"><a href="http://www.baltimoresun.com/entertainment/dining/baltimore-diner-blog/bal-remington-chop-20150526-story.html">The Remington Chop</a> was a first-time culinary event that took place on June 13th in the Remington neighborhood of Baltimore City. When we started, our mission was to host an event that brought people to a lesser-known neighborhood of Baltimore and give our guests a chance to learn from local chefs. We choose Remington for its burgeoning culinary scene and because of the efforts of the neighborhood to help us put the event together.
+      As one of the event organizers, I was involved in logistics, sales, and marketing. However, my focus was to drive traffic to our website and hopefully convert some of those visitors into sales. I managed our email marketing campaign, led PR outreach, and ran our social media accounts. Ultimately, sales and marketing is a team effort and we leaned heavily on our personal networks to sell out the event. </p>
+    </div>
+    </div>
+</div>
+<div class="container" >
+  <div class="row" >
+    <div class ="col-md-12" >
+      <a class="project-title" href="dimitrifautsch.com" target="_blank" ><h3>dimitrifautsch.com</h3></a>
+        <p class="project-summary">I built this site to improve my knowledge of web development languages and to have a crack at creating a fully-responsive and (in some places) interactive website. Stay tuned for updates.</p>
+    </div>
+  </div>
+</div>
+
+
+
+
+<div class="row homepage-icons">
+    <div class="col-sm-12 col-lg-12">
+      <a href="mailto:difautsch@gmail.com" target="_blank" ><i class="fa fa-envelope-square"></i></a>
+      <a href="http://www.linkedin.com/in/dimitrifautsch/en" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+      <a href="https://twitter.com/dimitrifautsch" target="_blank"><i class="fa fa-twitter-square"></i></a>
+      <a href="#" target="_blank"><i class="fa fa-github-square"></i></a>
+    </div>
+  </div>
+</div> <!-- end container -->
+<script
+type="text/javascript"> function toggle_text(id) {
+  var show = document.getElementById(id);
+  if(show.style.display == 'block') show.style.display = 'none';
+  else show.style.display = 'block'; 
+}
+</script>
+
+
+<div id="remingtonchopbody"> </div>
+</body>
+</html>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

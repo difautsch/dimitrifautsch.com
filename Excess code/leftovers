@@ -1,0 +1,59 @@
+<!-- Three spaced out cities -->
+.san-diego {
+	width:33%;
+	display:inline-block;
+}
+.chicago{
+	width:33%;
+    text-align: center;
+	display:inline-block;
+}
+.baltimore {
+	width:33%;
+	text-align: right;
+	display:inline-block;
+
+	.cities-list h2 {
+	display: inline-block;
+	padding-bottom: 40px
+
+}
+.contact-content {
+	text-align:center;
+	font-size: 50px;
+	font-family: 'Merriweather', serif;
+}
+
+.pages-header {
+font-family: 'Merriweather', serif;
+}
+.blog-content {
+	font-family: 'Lato', sans-serif;
+}
+.active-page a{
+	text-decoration: underline;
+	
+}
+.navbar-default .active-page {
+	text-decoration: underline;
+	color: #a8a8a8;
+}
+.active-page {
+	text-decoration: underline;
+	font-weight: bold;
+}
+<!doctype html><html>
+<head><title>JavaScript Tutorial</title><style type="text/css">#sectiontohide {    padding:20px;    background:#f0f0f0;    width:400px;    display:none;}</style>
+
+<script type="text/javascript">    function toggle_div_fun(id) { 
+      var show = document.getElementById(id);       
+      if(show.style.display == 'block')  show.style.display = 'none';       
+      else   show.style.display = 'block';    }
+      </script>
+</head>
+<body>
+  <div onclick="toggle_div_fun('sectiontohide');">Click here</div> 
+  to toggle visibility of div element #sectiontohide<br /><br /><div id="sectiontohide"><p>The Remington Chop was a first-time culinary event that took place on June 13th in the Remington neighborhood of Baltimore City. When we started, our mission was to host an event that brought people to a lesser-known neighborhood of Baltimore and give our guests a chance to learn from local chefs. We choose Remington for its burgeoning culinary scene and because of the efforts of the neighborhood to help us put the event together.</p></div>
+</body>
+</html>
+<img src="images/remington-chop-profile.png" alt="TheRemingtonChop" width="570px" height="382px" >

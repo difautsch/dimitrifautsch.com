@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>My First Web Page</h1>
+<p>My First Paragraph</p>
+
+<p id="demo"> </p>
+
+<script
+type="text/javascript"> function toggle_text(id) {
+  var show = document.getElementById(id);
+  if(show.style.display == 'block') show.style.display = 'none';
+  else show.style.display = 'block'; 
+}
+</script>
+
+<div onclick="toggle_text('remingtonchopbody');">The Remington Chop</div>
+<div id="remingtonchopbody"> <p>The Remington Chop was a first-time culinary event that took place on June 13th in the Remington neighborhood of Baltimore City. When we started, our mission was to host an event that brought people to a lesser-known neighborhood of Baltimore and give our guests a chance to learn from local chefs. We choose Remington for its burgeoning culinary scene and because of the efforts of the neighborhood to help us put the event together.</p></div>
+</body>
+</html>
+

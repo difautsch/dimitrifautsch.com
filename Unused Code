@@ -1,0 +1,14 @@
+
+
+<!-- footer-->  
+    <div class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
+      <div class="container">
+        <div class="navbar-text pull-left">
+          <p>© 2015 Dimitri Fautsch</p>
+        </div>
+        <div class="navbar-text pull-right">
+          <a href="https://www.linkedin.com/in/dimitrifautsch"><i class="fa fa-linkedin-square fa-3x"></i></a>
+          <a href="twitter.com/dimitrifautsch"><i class="fa fa-twitter-square fa-3x"></i>"
+        </div>
+      </div>
+    </div>   
